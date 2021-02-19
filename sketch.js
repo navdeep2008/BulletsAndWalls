@@ -36,6 +36,9 @@ function draw() {
   car.shapeColor = color(0 , 255 , 0);  
   }
 } 
+
+function hasCollided();
+
   drawSprites();
 }
 
