@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
   background("black");  
-  var deformation = 0.5*bullet*bulletSpeed*bulletSpeed/thicknessOfWall*thicknessOfWall*thicknessOfWall;
+  var deformation = 0.5*bullet*bulletSpeed*bulletSpeed/(thickness*thickness*thickness);
 
   if(hasCollided(bullet , wall))
 {
@@ -30,7 +30,7 @@ wall.shapeColor = color(255,0,0);;
 }
 
 if (damage < 10){
-wall.shapeColor = color(0.,2550); 
+wall.shapeColor = color(0,255,0); 
 }
 
   drawSprites();
