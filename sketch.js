@@ -17,7 +17,7 @@ function setup() {
 
 function draw() {
   background("black");  
-  var deformation = 0.5*bullet*bulletSpeed*bulletSpeed/(thickness*thickness*thickness);
+  var deformation = 0.5*bulletWeight*bulletSpeed*bulletSpeed/(thickness*thickness*thickness);
 
   if(hasCollided(bullet , wall))
 {
