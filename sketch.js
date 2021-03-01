@@ -5,7 +5,7 @@ var thickness;
 function setup() {
   createCanvas(800,400);
 
-  speed = random(223,321);
+  bulletSpeed = random(223,321);
   bulletWeight = random(30,52);
 
   bullet = createSprite(50,200, thickness, height/2);
