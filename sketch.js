@@ -10,10 +10,10 @@ function setup() {
 
   bullet = createSprite(50,200, thickness, height/2);
   bullet.velocityX = speed;
-  bullet.shapeColor = "black";
+  bullet.shapeColor = "white";
 
   wall = createSprite(1200 , 200,60,height/2);
-  wall.shapeColor = "black";   
+  wall.shapeColor = "white";   
 }
 
 function draw() {
